@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ropana/Screens/topic_selection_screen.dart';
 
 import 'Screens/question_screen.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Questionnaire(),
+      home: const TopicSelectionScreen(),
     );
   }
 }
